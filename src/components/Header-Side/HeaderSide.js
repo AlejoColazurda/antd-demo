@@ -21,7 +21,7 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, i
     }),
   };
 });
-const App = () => {
+const HeaderSide = () => {
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
@@ -102,4 +102,4 @@ const App = () => {
     </Layout>
   );
 };
-export default App;
+export default HeaderSide;
